@@ -1,9 +1,8 @@
 import React, { PureComponent } from 'react'
 import Header from './Header'
-import './Base.css'
 import { connect } from 'react-redux'
 
-class Home extends PureComponent {
+class Base extends PureComponent {
   render() {
     return (
       <div className="pageContent">
@@ -12,3 +11,5 @@ class Home extends PureComponent {
     )
   }
 }
+
+export default Base
